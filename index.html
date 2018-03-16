@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Lord of the Rings Trivia</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+
+
+    <div class="container container-fluid">
+        <div class="row">
+            <div id="header">
+                <h1>Lord of the Rings Trivia</h1>
+                <br>
+                <h3 id="#timer"></h3>
+            </div>
+
+        </div>
+    </div>
+    <!-- 
+<div id="quiz"></div>
+<button id="submit">Get Results</button>
+<div id="results"></div> -->
+
+    <form id="quiz" name="quiz">
+        <div class="container block">
+            <div class="row">
+                <div class="col-3"></div>
+                <div class="col-6">
+                    <h4>Q1. What was the name of the monster that pulled Gandalf down into the depths of the Mines of Moria?</h4>
+                    <label class="container">
+                        <input type="radio" name="Q1" value="The Nazgul">
+                        <span class="checkmark"></span>The Nazgul
+                    </label>
+                    <label class="container">
+                        <input type="radio" name="Q1" value="The Cave Troll">
+                        <span class="checkmark"></span>The Cave Troll
+                    </label>
+                    <label class="container">
+                        <input type="radio" name="Q1" value="The Warg">
+                        <span class="checkmark"></span>The Warg
+                    </label>
+                    <label class="container">
+                        <input type="radio" name="Q1" value="The Balrog">
+                        <span class="checkmark"></span>The Balrog
+                </div>
+                <div class="col-3"></div>
+            </div>
+        </div>
+
+        <br>
+        <br>
+        <br>
+        <div class="container block">
+            <div class="row">
+                <div class="col-3"></div>
+                <div class="col-6">
+                    <h4>Q2. What weapon does Sam use to fight Shelob?</h4>
+                    <label class="container">
+                        <input type="radio" name="Q2" value="Sting">
+                        <span class="checkmark"></span>Sting
+                    </label>
+                    <label class="container">
+                        <input type="radio" name="Q2" value="Anduril">
+                        <span class="checkmark"></span>Anduril
+                    </label>
+                    <label class="container">
+                        <input type="radio" name="Q2" value="Glamdring">
+                        <span class="checkmark"></span>Glamdring
+                    </label>
+                    <label class="container">
+                        <input type="radio" name="Q2" value="Orcrist">
+                        <span class="checkmark"></span>Orcrist
+                </div>
+                <div class="col-3"></div>
+            </div>
+        </div>
+
+        <br>
+        <br>
+        <br>
+        <div class="container block">
+            <div class="row">
+                <div class="col-3"></div>
+                <div class="col-6">
+                    <h4>Q3. What birthday is Bilbo celebrating at the beginning of Fellowship of the Ring?</h4>
+                    <label class="container">
+                        <input type="radio" name="Q3" value="1,000th">
+                        <span class="checkmark"></span>1,000th
+                    </label>
+                    <label class="container">
+                        <input type="radio" name="Q3" value="21st">
+                        <span class="checkmark"></span>21st
+                    </label>
+                    <label class="container">
+                        <input type="radio" name="Q3" value="111th">
+                        <span class="checkmark"></span>111th
+                    </label>
+                    <label class="container">
+                        <input type="radio" name="Q3" value="346th">
+                        <span class="checkmark"></span>346th
+                </div>
+                <div class="col-3"></div>
+            </div>
+        </div>
+
+        <br>
+        <br>
+        <br>
+        <div class="container block">
+            <div class="row">
+                <div class="col-3"></div>
+                <div class="col-6">
+                    <h4>Q4. What are the ancient, moving trees called?</h4>
+                    <label class="container">
+                        <input type="radio" name="Q4" value="Ents">
+                        <span class="checkmark"></span>Ents
+                    </label>
+                    <label class="container">
+                        <input type="radio" name="Q4" value="Barrow Wights">
+                        <span class="checkmark"></span>Barrow Wights
+                    </label>
+                    <label class="container">
+                        <input type="radio" name="Q4" value="Uruk Hai">
+                        <span class="checkmark"></span>Uruk Hai
+                    </label>
+                    <label class="container">
+                        <input type="radio" name="Q4" value="Hurons">
+                        <span class="checkmark"></span>Hurons
+                </div>
+                <div class="col-3"></div>
+            </div>
+        </div>
+
+        <br>
+        <br>
+        <br>
+        <div class="container block">
+            <div class="row">
+                <div class="col-3"></div>
+                <div class="col-6">
+                    <h4>Q5. What is the password for the Mines of Moria, that means "friend" in Elvish?</h4>
+                    <label class="container">
+                        <input type="radio" name="Q5" value="Mellon">
+                        <span class="checkmark"></span>Mellon
+                    </label>
+                    <label class="container">
+                        <input type="radio" name="Q5" value="Kiwi">
+                        <span class="checkmark"></span>Kiwi
+                    </label>
+                    <label class="container">
+                        <input type="radio" name="Q5" value="Apple">
+                        <span class="checkmark"></span>Apple
+                    </label>
+                    <label class="container">
+                        <input type="radio" name="Q5" value="Mango">
+                        <span class="checkmark"></span>Mango
+                </div>
+                <div class="col-3"></div>
+            </div>
+        </div>
+
+        <br>
+        <br>
+        <br>
+        <div class="container block">
+            <div class="row">
+                <div class="col-3"></div>
+                <div class="col-6">
+                    <h4>Q6. There are 3 elven rings (duh). Elrond has one and Galadriel has one. Who has the 3rd one?</h4>
+                    <label class="container">
+                        <input type="radio" name="Q6" value="Thranduil">
+                        <span class="checkmark"></span>Thranduil
+                    </label>
+                    <label class="container">
+                        <input type="radio" name="Q6" value="Gandalf">
+                        <span class="checkmark"></span>Gandalf
+                    </label>
+                    <label class="container">
+                        <input type="radio" name="Q6" value="Aragorn">
+                        <span class="checkmark"></span>Aragorn
+                    </label>
+                    <label class="container">
+                        <input type="radio" name="Q6" value="The Mouth of Sauron">
+                        <span class="checkmark"></span>The Mouth of Sauron
+                </div>
+                <div class="col-3"></div>
+            </div>
+        </div>
+
+        <br>
+        <br>
+        <br>
+        <div class="container block">
+            <div class="row">
+                <div class="col-3"></div>
+                <div class="col-6">
+                    <h4>Q7. What color is Tom Bombadil's jacket?</h4>
+                    <label class="container">
+                        <input type="radio" name="Q7" value="Blue">
+                        <span class="checkmark"></span>Blue
+                    </label>
+                    <label class="container">
+                        <input type="radio" name="Q7" value="Green">
+                        <span class="checkmark"></span>Green
+                    </label>
+                    <label class="container">
+                        <input type="radio" name="Q7" value="Yellow">
+                        <span class="checkmark"></span>Yellow
+                    </label>
+                    <label class="container">
+                        <input type="radio" name="Q7" value="Red">
+                        <span class="checkmark"></span>Red
+                </div>
+                <div class="col-3"></div>
+            </div>
+        </div>
+
+        <br>
+        <br>
+        <br>
+        <div class="container block">
+            <div class="row">
+                <div class="col-3"></div>
+                <div class="col-6">
+                    <h4>Bonus question - What day of the year is Hobbit Day?</h4>
+                    <label class="container">
+                        <input type="radio" name="radio" value="January 21st">
+                        <span class="checkmark"></span>January 21st
+                    </label>
+                    <label class="container">
+                        <input type="radio" name="BonusQ" value="September 22nd">
+                        <span class="checkmark"></span>September 22nd
+                    </label>
+                    <label class="container">
+                        <input type="radio" name="BonusQ" value="July 29th">
+                        <span class="checkmark"></span>July 29th
+                    </label>
+                    <label class="container">
+                        <input type="radio" name="BonusQ" value="January 3rd">
+                        <span class="checkmark"></span>January 3rd
+                </div>
+                <div class="col-3"></div>
+            </div>
+        </div>
+        </div>
+    </form>
+    <br>
+    <br>
+    <br>
+    <div class="container block">
+        <div class="row">
+            <div class="col-3"></div>
+            <div class="col-6">
+                <div id="quizSubmit"></div>
+                <button id="submit" onclick="check();">Get Results</button>
+                <div id="results"></div>
+            </div>
+            <div class="col-3"></div>
+            <div class="row">
+                <div class="col-3"></div>
+                <div class="col-6">
+                    <div id="afterSubmit">
+                        <p id="numCorrect"></p>
+                        <p id="numIncorrect"></p>
+                        <p id="numUnanswered"></p>
+                    </div>
+                </div>
+                <div class="col-3"></div>
+            </div>
+
+<img src="assets/images/gdog.jpg" alt="Super sly Gandalf with sunglasses saying 'That's what I'm Tolkien about">
+
+        </div>
+
+
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
+        <script type="text/javascript" src="assets/javascript/app.js"></script>
+</body>
+
+</html>

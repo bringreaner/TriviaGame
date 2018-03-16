@@ -1,0 +1,41 @@
+body {
+    background-image: url("../images/lotr.jpg")
+}
+
+#header {
+    background-image: url("../images/paper.jpg");
+    padding: 50px;
+    margin: 100px;
+    font-size: 70px;
+}
+
+.block {
+    background-image: url("../images/paper.jpg");
+    width: 70%;
+    color: #0f440e;
+     /* #3f250b;#652121 */
+    font-weight: bold;
+}
+
+#quizSubmit {
+    height: 50px;
+    margin: 30px;
+}
+
+#submit {
+    height: 20px;
+    text-align: center;
+    padding: 20px;
+}
+
+/* #afterSubmit {
+    visibility: none;
+} */
+
+img {
+    height: 400px;
+}
+
+#timer {
+    color: black;
+}
